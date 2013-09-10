@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AD18CC2A17D9C41F00BFFD41"
-               BuildableName = "AlbummAppTwo.app"
+               BuildableName = "SFAlbumApp.app"
                BlueprintName = "SFAlbumApp"
                ReferencedContainer = "container:SFAlbumApp.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AD18CC4B17D9C42000BFFD41"
-               BuildableName = "AlbummAppTwoTests.xctest"
+               BuildableName = "SFAlbumAppTests.xctest"
                BlueprintName = "SFAlbumAppTests"
                ReferencedContainer = "container:SFAlbumApp.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AD18CC2A17D9C41F00BFFD41"
-            BuildableName = "AlbummAppTwo.app"
+            BuildableName = "SFAlbumApp.app"
             BlueprintName = "SFAlbumApp"
             ReferencedContainer = "container:SFAlbumApp.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AD18CC2A17D9C41F00BFFD41"
-            BuildableName = "AlbummAppTwo.app"
+            BuildableName = "SFAlbumApp.app"
             BlueprintName = "SFAlbumApp"
             ReferencedContainer = "container:SFAlbumApp.xcodeproj">
          </BuildableReference>
@@ -80,7 +80,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AD18CC2A17D9C41F00BFFD41"
-            BuildableName = "AlbummAppTwo.app"
+            BuildableName = "SFAlbumApp.app"
             BlueprintName = "SFAlbumApp"
             ReferencedContainer = "container:SFAlbumApp.xcodeproj">
          </BuildableReference>

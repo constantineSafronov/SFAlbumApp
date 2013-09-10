@@ -219,8 +219,8 @@
 			isa = PBXGroup;
 			children = (
 				AD18CCC017DDBC3200BFFD41 /* Images */,
-				AD18CC3417D9C41F00BFFD41 /* AlbummApp */,
-				AD18CC5317D9C42000BFFD41 /* AlbummAppTests */,
+				AD18CC3417D9C41F00BFFD41 /* AlbumApp */,
+				AD18CC5317D9C42000BFFD41 /* AlbumAppTests */,
 				AD18CC2D17D9C41F00BFFD41 /* Frameworks */,
 				AD18CC2C17D9C41F00BFFD41 /* Products */,
 			);
@@ -246,7 +246,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		AD18CC3417D9C41F00BFFD41 /* AlbummApp */ = {
+		AD18CC3417D9C41F00BFFD41 /* AlbumApp */ = {
 			isa = PBXGroup;
 			children = (
 				AD18CD5D17DDBF9000BFFD41 /* SFPhotosets.plist */,
@@ -266,7 +266,7 @@
 				AD18CC4617D9C42000BFFD41 /* Images.xcassets */,
 				AD18CC3517D9C41F00BFFD41 /* Supporting Files */,
 			);
-			name = AlbummApp;
+			name = AlbumApp;
 			path = AlbummAppTwo;
 			sourceTree = "<group>";
 		};
@@ -281,13 +281,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		AD18CC5317D9C42000BFFD41 /* AlbummAppTests */ = {
+		AD18CC5317D9C42000BFFD41 /* AlbumAppTests */ = {
 			isa = PBXGroup;
 			children = (
 				AD18CC5917D9C42000BFFD41 /* AlbummAppTwoTests.m */,
 				AD18CC5417D9C42000BFFD41 /* Supporting Files */,
 			);
-			name = AlbummAppTests;
+			name = AlbumAppTests;
 			path = AlbummAppTwoTests;
 			sourceTree = "<group>";
 		};
@@ -739,6 +739,7 @@
 				AD18CC5F17D9C42000BFFD41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AD18CC6017D9C42000BFFD41 /* Build configuration list for PBXNativeTarget "SFAlbumAppTests" */ = {
 			isa = XCConfigurationList;
@@ -747,6 +748,7 @@
 				AD18CC6217D9C42000BFFD41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
