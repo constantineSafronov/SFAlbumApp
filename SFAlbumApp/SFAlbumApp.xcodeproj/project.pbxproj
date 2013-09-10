@@ -111,22 +111,22 @@
 		AD18CC3D17D9C41F00BFFD41 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AD18CC3E17D9C41F00BFFD41 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		AD18CC4117D9C41F00BFFD41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AD18CC4317D9C41F00BFFD41 /* SFAlbumViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFAlbumViewController.h; sourceTree = "<group>"; };
-		AD18CC4417D9C41F00BFFD41 /* SFAlbumViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFAlbumViewController.m; sourceTree = "<group>"; };
+		AD18CC4317D9C41F00BFFD41 /* SFAlbumViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SFAlbumViewController.h; path = AlbummAppTwo/SFAlbumViewController.h; sourceTree = "<group>"; };
+		AD18CC4417D9C41F00BFFD41 /* SFAlbumViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SFAlbumViewController.m; path = AlbummAppTwo/SFAlbumViewController.m; sourceTree = "<group>"; };
 		AD18CC4617D9C42000BFFD41 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		AD18CC4C17D9C42000BFFD41 /* SFAlbumAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SFAlbumAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD18CC4D17D9C42000BFFD41 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		AD18CC5517D9C42000BFFD41 /* SFAlbumAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SFAlbumAppTests-Info.plist"; sourceTree = "<group>"; };
 		AD18CC5717D9C42000BFFD41 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AD18CC5917D9C42000BFFD41 /* AlbummAppTwoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlbummAppTwoTests.m; sourceTree = "<group>"; };
-		AD18CC6317D9C43600BFFD41 /* SFAlbumView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFAlbumView.h; sourceTree = "<group>"; };
-		AD18CC6417D9C43600BFFD41 /* SFAlbumView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFAlbumView.m; sourceTree = "<group>"; };
-		AD18CC6617D9C44800BFFD41 /* SFStackLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFStackLayout.h; sourceTree = "<group>"; };
-		AD18CC6717D9C44800BFFD41 /* SFStackLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFStackLayout.m; sourceTree = "<group>"; };
-		AD18CC6817D9C44800BFFD41 /* SFCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFCollectionViewCell.h; sourceTree = "<group>"; };
-		AD18CC6917D9C44800BFFD41 /* SFCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFCollectionViewCell.m; sourceTree = "<group>"; };
-		AD18CC6A17D9C44800BFFD41 /* SFCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFCollectionViewController.h; sourceTree = "<group>"; };
-		AD18CC6B17D9C44800BFFD41 /* SFCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFCollectionViewController.m; sourceTree = "<group>"; };
+		AD18CC6317D9C43600BFFD41 /* SFAlbumView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SFAlbumView.h; path = AlbummAppTwo/SFAlbumView.h; sourceTree = "<group>"; };
+		AD18CC6417D9C43600BFFD41 /* SFAlbumView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SFAlbumView.m; path = AlbummAppTwo/SFAlbumView.m; sourceTree = "<group>"; };
+		AD18CC6617D9C44800BFFD41 /* SFStackLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SFStackLayout.h; path = AlbummAppTwo/SFStackLayout.h; sourceTree = "<group>"; };
+		AD18CC6717D9C44800BFFD41 /* SFStackLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SFStackLayout.m; path = AlbummAppTwo/SFStackLayout.m; sourceTree = "<group>"; };
+		AD18CC6817D9C44800BFFD41 /* SFCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SFCollectionViewCell.h; path = AlbummAppTwo/SFCollectionViewCell.h; sourceTree = "<group>"; };
+		AD18CC6917D9C44800BFFD41 /* SFCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SFCollectionViewCell.m; path = AlbummAppTwo/SFCollectionViewCell.m; sourceTree = "<group>"; };
+		AD18CC6A17D9C44800BFFD41 /* SFCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SFCollectionViewController.h; path = AlbummAppTwo/SFCollectionViewController.h; sourceTree = "<group>"; };
+		AD18CC6B17D9C44800BFFD41 /* SFCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SFCollectionViewController.m; path = AlbummAppTwo/SFCollectionViewController.m; sourceTree = "<group>"; };
 		AD18CCC117DDBC3200BFFD41 /* photoset0-0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "photoset0-0.jpg"; sourceTree = "<group>"; };
 		AD18CCC217DDBC3200BFFD41 /* photoset0-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "photoset0-1.jpg"; sourceTree = "<group>"; };
 		AD18CCC317DDBC3200BFFD41 /* photoset0-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "photoset0-2.jpg"; sourceTree = "<group>"; };
@@ -218,6 +218,7 @@
 		AD18CC2217D9C41E00BFFD41 = {
 			isa = PBXGroup;
 			children = (
+				AD90CDF617DF1951001A1365 /* SourceCode */,
 				AD18CCC017DDBC3200BFFD41 /* Images */,
 				AD18CC3417D9C41F00BFFD41 /* AlbumApp */,
 				AD18CC5317D9C42000BFFD41 /* AlbumAppTests */,
@@ -250,18 +251,8 @@
 			isa = PBXGroup;
 			children = (
 				AD18CD5D17DDBF9000BFFD41 /* SFPhotosets.plist */,
-				AD18CC6317D9C43600BFFD41 /* SFAlbumView.h */,
-				AD18CC6417D9C43600BFFD41 /* SFAlbumView.m */,
-				AD18CC6617D9C44800BFFD41 /* SFStackLayout.h */,
-				AD18CC6717D9C44800BFFD41 /* SFStackLayout.m */,
-				AD18CC6817D9C44800BFFD41 /* SFCollectionViewCell.h */,
-				AD18CC6917D9C44800BFFD41 /* SFCollectionViewCell.m */,
-				AD18CC6A17D9C44800BFFD41 /* SFCollectionViewController.h */,
-				AD18CC6B17D9C44800BFFD41 /* SFCollectionViewController.m */,
 				AD18CC3D17D9C41F00BFFD41 /* AppDelegate.h */,
 				AD18CC3E17D9C41F00BFFD41 /* AppDelegate.m */,
-				AD18CC4317D9C41F00BFFD41 /* SFAlbumViewController.h */,
-				AD18CC4417D9C41F00BFFD41 /* SFAlbumViewController.m */,
 				AD18CC4017D9C41F00BFFD41 /* Main.storyboard */,
 				AD18CC4617D9C42000BFFD41 /* Images.xcassets */,
 				AD18CC3517D9C41F00BFFD41 /* Supporting Files */,
@@ -367,6 +358,23 @@
 			);
 			name = Images;
 			path = AlbummAppTwo/Images;
+			sourceTree = "<group>";
+		};
+		AD90CDF617DF1951001A1365 /* SourceCode */ = {
+			isa = PBXGroup;
+			children = (
+				AD18CC6317D9C43600BFFD41 /* SFAlbumView.h */,
+				AD18CC6417D9C43600BFFD41 /* SFAlbumView.m */,
+				AD18CC6617D9C44800BFFD41 /* SFStackLayout.h */,
+				AD18CC6717D9C44800BFFD41 /* SFStackLayout.m */,
+				AD18CC6817D9C44800BFFD41 /* SFCollectionViewCell.h */,
+				AD18CC6917D9C44800BFFD41 /* SFCollectionViewCell.m */,
+				AD18CC6A17D9C44800BFFD41 /* SFCollectionViewController.h */,
+				AD18CC6B17D9C44800BFFD41 /* SFCollectionViewController.m */,
+				AD18CC4317D9C41F00BFFD41 /* SFAlbumViewController.h */,
+				AD18CC4417D9C41F00BFFD41 /* SFAlbumViewController.m */,
+			);
+			name = SourceCode;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
