@@ -80,6 +80,7 @@
     UICollectionViewFlowLayout* grid = [[UICollectionViewFlowLayout alloc] init];
     grid.itemSize = CGSizeMake(93.0, 93.0);
     grid.sectionInset = UIEdgeInsetsMake(10.0, 10.0, 10.0, 10.0);
+    
     [self.collectionView setCollectionViewLayout:grid animated:YES];
 }
 
