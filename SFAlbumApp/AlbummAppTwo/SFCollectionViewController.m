@@ -12,7 +12,6 @@
 #import "SFStackLayout.h"
 
 #define CELL_ID @"CELL_ID"
-#define HIDDING_ANIMATION_DURATION 0.3f
 
 
 @interface SFCollectionViewController ()
@@ -63,8 +62,11 @@
 
 -(void)backBarButtonWasTapped{
     
-    [self.collectionView setCollectionViewLayout:self.stackLayout animated:YES];
-    [self performSelector:@selector(popBack) withObject:nil afterDelay:HIDDING_ANIMATION_DURATION];
+    __block __weak id weakSelf = self;
+    
+    [self.collectionView setCollectionViewLayout:self.stackLayout animated:YES completion:^(BOOL finished) {
+        [weakSelf popBack];
+    }];
 }
 
 
