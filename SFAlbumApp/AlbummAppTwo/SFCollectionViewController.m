@@ -13,6 +13,7 @@
 
 #define CELL_ID @"CELL_ID"
 
+static const int MaxItemsCountOnScreen = 15;
 
 @interface SFCollectionViewController ()
 
@@ -32,7 +33,6 @@
         [self.collectionView registerClass:[SFCollectionViewCell class] forCellWithReuseIdentifier:CELL_ID];
         self.stackLayout = (SFStackLayout *)layout;
         self.title = @"Photos";
-        
     }
     return self;
 }
@@ -64,6 +64,10 @@
     
     __block __weak id weakSelf = self;
     
+    if([self.dataSourceArray count] > MaxItemsCountOnScreen){
+        [self.collectionView setContentOffset:CGPointMake(0.0f, 0.0f) animated:YES];
+        [self.collectionView reloadData];
+    }
     [self.collectionView setCollectionViewLayout:self.stackLayout animated:YES completion:^(BOOL finished) {
         [weakSelf popBack];
     }];
@@ -71,7 +75,7 @@
 
 
 -(void)popBack{
-    [self.navigationController popViewControllerAnimated:NO];    
+    [self.navigationController popViewControllerAnimated:NO];
 }
 
 #pragma mark -
@@ -82,7 +86,6 @@
     UICollectionViewFlowLayout* grid = [[UICollectionViewFlowLayout alloc] init];
     grid.itemSize = CGSizeMake(93.0, 93.0);
     grid.sectionInset = UIEdgeInsetsMake(10.0, 10.0, 10.0, 10.0);
-    
     [self.collectionView setCollectionViewLayout:grid animated:YES];
 }
 
